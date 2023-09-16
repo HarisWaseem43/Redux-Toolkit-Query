@@ -1,4 +1,4 @@
-import { useGetPostsQuery } from "../Redux/API";
+import { useGetPostsQuery } from "../Redux/PostsAPI";
 
 function PostCards() {
   const { data, error, isLoading } = useGetPostsQuery();

@@ -30,5 +30,20 @@
             "userID": 31,
             "id": 5
         }
+    ],
+
+    "comments": [
+        {
+            "id": 1,
+            "comments": "Random comments-1"
+        },
+        {
+            "id": 2,
+            "comments": "Random comments-2"
+        },
+        {
+            "id": 3,
+            "comments": "Random comments-3"
+        }
     ]
 }
