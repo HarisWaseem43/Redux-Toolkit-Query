@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useGetPostsQuery } from "../Redux/PostsAPI";
 
 function PostCards() {
@@ -25,6 +26,7 @@ function PostCards() {
           <p>{post.body}</p>
         </div>
       ))}
+      <Link to="/">Go Back</Link>
     </div>
   );
 }

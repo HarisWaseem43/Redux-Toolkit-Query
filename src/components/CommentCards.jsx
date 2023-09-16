@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useGetCommentsQuery } from "../Redux/CommentsAPI";
 
 function CommentsCards() {
@@ -22,6 +23,7 @@ function CommentsCards() {
           <h2>{comment.comments}</h2>
         </div>
       ))}
+      <Link to="/">Go Back</Link>
     </div>
   );
 }
