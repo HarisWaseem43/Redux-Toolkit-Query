@@ -1,12 +1,11 @@
 import "./App.css";
-import { useGetPostsQuery } from "./Redux/API";
+import PostCards from "./components/PostCards";
 
 function App() {
-  const { data, isError, isLoading, error, isSuccess } = useGetPostsQuery("");
-  console.log(data, isError, isLoading, error, isSuccess);
   return (
     <div className="App">
       <h1>My App</h1>
+      <PostCards />
     </div>
   );
 }
