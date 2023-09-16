@@ -2,7 +2,6 @@ import { useGetCommentsQuery } from "../Redux/CommentsAPI";
 
 function CommentsCards() {
   const { data, error, isLoading } = useGetCommentsQuery();
-  console.log(data);
 
   if (isLoading) {
     return <div>Loading...</div>;
